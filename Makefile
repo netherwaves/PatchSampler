@@ -1,7 +1,7 @@
 # Project Name
 TARGET = PatchSampler
 # APP_TYPE = BOOT_QSPI
-# USE_FATFS = 1
+USE_FATFS = 1
 
 # Sources
 CPP_SOURCES = src/main.cpp
