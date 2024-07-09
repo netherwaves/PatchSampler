@@ -4,7 +4,9 @@ TARGET = PatchSampler
 USE_FATFS = 1
 
 # Sources
-CPP_SOURCES = src/main.cpp
+CPP_SOURCES = src/patch_sampler.cpp \
+							src/patch_sample.cpp \
+						  src/main.cpp
 
 # Includes
 C_INCLUDES += -Iinclude
